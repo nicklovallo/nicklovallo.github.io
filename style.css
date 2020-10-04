@@ -90,31 +90,33 @@ body {
 }
 
 #about-section {
-  width: 90%;
+  width: 80%;
   margin: auto;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   color: rgb(87, 84, 84);
 }
 
-#about-section h1 {
-  align-self: center;
-  padding-top: 2rem;
+#about-section-intro {
+  padding: 2rem 0 2rem 0;
 }
 
-#about-section p {
-  padding: 1rem 2rem 0 2rem;
+#about-section-intro h1 {
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
-#about-section ul {
-  padding: 0 0 2rem 4rem;
+#about-section-list {
+  display: flex;
+}
+
+#about-section-list ul {
+  margin: 0 5rem 1rem 1rem;
 }
 
 #projects-hero {
-  min-height: 50vh;
+  min-height: 40vh;
   background-image: url("./images/city-2.jpeg");
   background-size: cover;
   background-attachment: fixed;
@@ -129,18 +131,27 @@ body {
 }
 
 #projects-list {
-  margin: 2rem 0 4rem 0;
   color: white;
+  margin: 2rem 0 4rem 0;
 }
 
 .projects {
   background-color: #393d61;
-  margin: 1rem;
+  margin: 2rem;
   padding: 1rem;
+  display: flex;
+}
+
+.project-image {
+  padding: 2rem;
+}
+
+.project-text {
+  padding: 2rem;
 }
 
 #contact-section {
-  min-height: 25vh;
+  min-height: 50vh;
   display: flex;
 }
 
@@ -148,7 +159,6 @@ body {
   width: 50%;
   background-image: url("./images/city-3.jpeg");
   background-size: cover;
-  background-attachment: fixed;
   color: white;
   display: flex;
   flex-direction: column;
@@ -174,13 +184,13 @@ body {
   background-color: #393d61;
   display: flex;
   flex-direction: column;
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
 
 .contact-tags {
   color: white;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .contact-tags:hover {
@@ -190,6 +200,7 @@ body {
 #mobile-header {
   display: none;
 }
+
 
 @media (max-width: 450px) {
 
