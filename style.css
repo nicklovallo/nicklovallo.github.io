@@ -150,6 +150,18 @@ body {
   padding: 2rem;
 }
 
+.project-text a {
+  color: white;
+  text-decoration: none;
+  border: solid white 1px;
+  padding: 1rem;
+}
+
+.project-text a:hover {
+  background-color: white;
+  color: #393d61;
+}
+
 #contact-section {
   min-height: 50vh;
   display: flex;
@@ -284,6 +296,10 @@ body {
 
   .mobile-div-tags:hover {
     text-decoration: underline;
+  }
+
+  .project-image {
+    display: none;
   }
 
 }
