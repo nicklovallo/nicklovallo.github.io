@@ -96,6 +96,7 @@ body {
   display: flex;
   flex-direction: column;
   color: rgb(87, 84, 84);
+  margin-bottom: 3rem;
 }
 
 #about-section-intro {
@@ -142,7 +143,16 @@ body {
   display: flex;
 }
 
+.project-text h1 {
+  font-size: 2rem;
+}
+
+.project-text p {
+  font-size: 0.8rem;
+}
+
 .project-image {
+  margin: 2rem;
   padding: 2rem;
 }
 
@@ -154,7 +164,7 @@ body {
   color: white;
   text-decoration: none;
   border: solid white 1px;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .project-text a:hover {
@@ -300,6 +310,11 @@ body {
 
   .project-image {
     display: none;
+  }
+
+  #about-section-list {
+    display: flex;
+    flex-direction: column;
   }
 
 }
