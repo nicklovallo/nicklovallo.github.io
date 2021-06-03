@@ -10,7 +10,7 @@
   <meta name="description" content="Portfolio Website" />
   <meta name="title" property="og:title" content="Portfolio Website" />
   <meta property="og:type" content="Website" />
-  <meta name="image" property="og:image" content="./images/portfolio-website-image.jpg" />
+  <meta name="image" property="og:image" content="./resources/images/portfolio-website-image.jpg" />
   <meta name="description" property="og:description" content="Portfolio Website" />
   <meta name="author" content="Nick LoVallo" />
 
@@ -61,7 +61,7 @@
 
     <div id="about-section-intro">
       <h1>About Me</h1>
-      <p>Hello! I'm <strong>Nick LoVallo</strong>, a web developer and software engineer based in Chicago. I work throughout the full stack in order to create thoughtful and well-structured projects. I delight in learning new technologies, improving my code, and refining my skills.
+      <p>Hello! I'm <strong>Nick LoVallo</strong>, a web developer and software engineer based in Chicago. I work throughout the full stack in order to create thoughtful and well-structured projects. I enjoy learning new technologies, improving my code, and refining my skills.
       <br>
       <br>
       I primarily work with the following languages and technologies:</p>
@@ -71,16 +71,18 @@
       <ul>
         <li>JavaScript</li>
         <li>React</li>
+        <li>React Native</li>
         <li>Redux</li>
-        <li>Node.js</li>
+        <li>Node</li>
         <li>Express</li>
       </ul>
       <ul>
         <li>Python</li>
         <li>Flask</li>
+        <li>Django</li>
         <li>PostgreSQL</li>
-        <li>SQLAlchemy</li>
-        <li>Sequelize</li>
+        <li>MongoDB</li>
+        <li>Firebase</li>
       </ul>
       <ul>
         <li>HTML</li>
@@ -89,11 +91,16 @@
         <li>Bootstrap</li>
       </ul>
       <ul>
+        <li>CLI</li>
         <li>Git</li>
         <li>GitHub</li>
         <li>Heroku</li>
       </ul>
       </div>
+
+      <br>
+
+      <h4><a href="./resources/documents/Resume-Nicholas.LoVallo.pdf" target="_blank">View and Download Resume</a></h4>
 
   </section>
 
@@ -109,7 +116,7 @@
       <div id="beatmaker-project" class="projects">
 
         <div class="project-image">
-          <img src="./images/beatmaker-project-image.jpg" alt="Beatmaker Project Image" height="300" width="300">
+          <img src="./resources/images/beatmaker-project-image.jpg" alt="Beatmaker Project Image" height="300" width="400">
         </div>
 
         <div class="project-text">
@@ -118,11 +125,8 @@
           <h4>Tech Used:</h4>
           <p>Vanilla JavaScript, CSS, HTML</p>
           <br>
-          <h4>Overview:</h4>
+          <h4>Description:</h4>
           <p>An app where users can make custom beats. Includes audio files, advanced CSS design, and mathematic operations governing tempo and time signature.</p>
-          <br>
-          <h4>Difficulties Encountered and Skills Learned:</h4>
-          <p>This is one of the first projects I built that utilized object-oriented JavaScript principles. As such, it took me some time to plan and figure out the proper way to structure the code, which turned out to be very useful in my ongoing effort to write clean code. In addition, I learned how to manipulate the DOM to create a user-friendly app experience.</p>
           <br>
           <h4><a href="https://nicklovallo.github.io/beatmaker/" target="_blank">View Project</a></h4>
           <br>
@@ -135,24 +139,46 @@
       <div id="favorite-movies-project" class="projects">
 
         <div class="project-image">
-          <img src="./images/favorite-movies-project-image.jpg" alt="Favorite Movies Project Image" height="300" width="400">
+          <img src="./resources/images/favorite-movies-project-image.jpg" alt="Favorite Movies Project Image" height="300" width="500">
         </div>
 
         <div class="project-text">
           <h1>Favorite Movies</h1>
           <br>
           <h4>Tech Used:</h4>
-          <p>Python, Flask, PostgreSQL, Heroku, Bootstrap, HTML</p>
+          <p>Python, Flask, PostgreSQL, SQLAlchemy, Bootstrap, HTML, Heroku</p>
           <br>
-          <h4>Overview:</h4>
-          <p>Full-featured website where users can create an account and log on, create their list of favorite movies, and view the lists of their friends.</p>
-          <br>
-          <h4>Difficulties Encountered and Skills Learned:</h4>
-          <p>I spent a significant amount of time on this project thinking about what I wanted it to be and what features I should include. I eventually decided to include an account/login feature, so that users could interact with their own movie list posting with full CRUD functionality. Through working on this project, I learned a wealth of skills relating to the Flask framework for Python, working with a SQL database, and deployment best practices.</p>
+          <h4>Description:</h4>
+          <p>Full-featured website where users can create an account and log on, create their list of favorite movies, and view the lists of their friends. Utilizes Flask extensions, such as flask_wtf, wtforms, flask_sqlalchemy, and flask_login, to handle multiple key features like authentication and creating the movie lists with full CRUD functionality.</p>
           <br>
           <h4><a href="https://everyones-favorite-movies.herokuapp.com/" target="_blank">View Project</a></h4>
           <br>
           <h4><a href="https://github.com/nicklovallo/favorite-movies" target="_blank">View Code on GitHub</a></h4>
+        </div>
+
+      </div>
+
+
+      <div id="earth-project" class="projects">
+
+        <div class="project-image">
+          <img src="./resources/images/earth-project-image.jpg" alt="eARth Project Image" height="300" width="525">
+        </div>
+
+        <div class="project-text">
+          <h1>eARth</h1>
+          <br>
+          <h4>Tech Used:</h4>
+          <p>React, Three.js, React Native, Redux, Firebase, Bootstrap, Augmented Reality (AR) using ViroReact</p>
+          <br>
+          <h4>Description:</h4>
+          <p>Working on a team of 4 over a period of 3 weeks, we built a project that utilizes Augmented Reality (AR) technology. Users can build a 3D model on our website, customize it, add music to it, and then place it in the AR world using our mobile app.</p>
+          <br>
+          <h4><a href="https://www.youtube.com/watch?v=_0bYUqzYg6o" target="_blank">View Video Overview and Demonstration</a></h4>
+          <br>
+          <h4><a href="https://earth-a2ce0.web.app/" target="_blank">View Project</a></h4>
+          <br>
+          <h4><a href="https://github.com/2103-team-Earth/eARth2" target="_blank">View Code on GitHub</a></h4>
         </div>
 
       </div>

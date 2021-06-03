@@ -12,7 +12,7 @@ body {
 
 #main-hero {
   min-height: 100vh;
-  background-image: url("./images/city-1.jpeg");
+  background-image: url("./resources/images/city-1.jpeg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -44,7 +44,7 @@ body {
 
 .header-tags {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 
@@ -116,9 +116,22 @@ body {
   margin: 0 5rem 1rem 1rem;
 }
 
+#about-section a {
+  color: rgb(87, 84, 84);
+  text-decoration: none;
+  border: solid rgb(87, 84, 84) 1px;
+  padding: 0.5rem;
+  font-size: 1.15rem;
+}
+
+#about-section a:hover {
+  background-color: rgb(87, 84, 84);
+  color: white;
+}
+
 #projects-hero {
   min-height: 40vh;
-  background-image: url("./images/city-2.jpeg");
+  background-image: url("./resources/images/city-2.jpeg");
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -148,7 +161,7 @@ body {
 }
 
 .project-text p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .project-image {
@@ -165,6 +178,7 @@ body {
   text-decoration: none;
   border: solid white 1px;
   padding: 0.5rem;
+  font-size: 1.15rem;
 }
 
 .project-text a:hover {
@@ -179,7 +193,7 @@ body {
 
 #contact-section-image {
   width: 50%;
-  background-image: url("./images/city-3.jpeg");
+  background-image: url("./resources/images/city-3.jpeg");
   background-size: cover;
   color: white;
   display: flex;
@@ -315,6 +329,15 @@ body {
   #about-section-list {
     display: flex;
     flex-direction: column;
+  }
+
+  .project-text a {
+    color: white;
+    text-decoration: none;
+    border: solid white 1px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    display: inline-block;
   }
 
 }
